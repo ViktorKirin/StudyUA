@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="first-screen">
+        <header>
+            <!-- container - и лого + телефон реализован Flex -->
+            <div class="container">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo" title="Company-logo">
+                    <p class="logo-text">DR Nikola Tesla
+                    dentist</p>
+                </div>
+                <!-- Nav - реализован Grid -->
+                <nav>
+                    <ul class="nav">
+                        <li><a href="#">Preference</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="container-tell">
+                    <img src="img/phone.svg" alt="Phone-number" title="Phone-number" class="phone-svg">
+                    <a href="tel:+09999999999" class="tell">099-999-99-999</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="text-container">
+                <h2 class="main-text1">Professional and 
+                    painless
+                    <span>Treatment of teeth</span>
+                </h2>
+                <p>Full diagnosis of the oral cavity and creat an individual 
+                treatment plan. Call and get an absolutely free consultation</p>
+            </div>
+            <div class="link-buttons">
+                <a href="#" class="call-button">Call</a>
+                <a href="#"class="service-button">Service</a>
+            </div>
+            <!-- benefits-container - реализован Grid -->
+            <div class="benefits-container">
+                <div class="benefits">
+                    <p class="value">15</p>
+                    <p>Years providing dental treatment services for adults and children</p>
+                </div>
+                <div class="benefits">
+                    <p class="value">90%</p>
+                    <p>Clients contact me again</p>
+                </div>
+                <div class="benefits">
+                    <p class="value">12</p>
+                    <p>months servise warranty</p>
+                </div>
+            </div>
+            <div class="lady"> 
+                <Picture>
+                    <img src="img/lady.png" alt="lady" title="lady">
+                </Picture>
+            </div>
+        <div class="text-container-second">
+            <h2 class="main-text2">WHY YOU SHOULD CHOOSE <span>EXACTLY ME?</span>
+            </h2>
+            <p>Over 15 years of professional experience! More than 2000 people have used my 
+            services! More than 70% of patients apply for recommendations</p>
+        </div>
+        <!-- benefits2-container - реализован Grid -->
+        <div class="benefits2-container">
+            <div class="benefits2">
+                <div>
+                    <p>01</p>
+                    <p>MODERN<br>EQUIPMENT</p>
+                </div>
+                <p>I use exclusively updated and most modern equipment - everything for the health of my patients</p>
+            </div>
+            <div class="benefits2">
+                <div>
+                    <p>02</p>
+                    <p>INTERESTS OF THE<br>CLIENT FIRST OF ALL</p>
+                </div>
+                <p>My task is to find a convenient time for you and build an individual treatment plan.</p>
+            </div>
+            <div class="benefits2">
+                <div>
+                    <p>03</p>
+                    <p>PROFESSIONAL<br>DENTIST</p>
+                </div>
+                <p>I have a lot of experience and improve my skills every year.</p>
+            </div>
+            <div class="benefits2">
+                <div>
+                    <p>04</p>
+                    <p>DENTAL TREATMENT<br>WITHOUT PAIN</p>
+                </div>
+                <p>I use high-quality anesthetics so that you do not feel pain at all</p>
+            </div>
+            <div class="benefits2">
+                <div>
+                    <p>05</p>
+                    <p>COMFORTABLE AND<br>COZY ENVIRONMENT</p>
+                </div>
+                <p>Created a very convenient 
+                and friendly environment to make you feel at home</p>
+            </div>
+            <div class="benefits2">
+                <div>
+                    <p>06</p>
+                    <p>FIRST CONSU LTATION<br>FREE OF CHARGE</p>
+                </div>
+                <p>You will receive a complete diagnosis, 
+                and we will develop a complete individual treatment plan</p>
+            </div>
+        </div>
+        </main>
+        <!-- Ошибка по структуре и семантике вроде-бы понял, решил не переписывать этот макет, а учесть замечания (в том числе по использованию контейнера при верствке с использованием Figma) -->
+
+        <!-- /* От сюда начался новый код - html Footer */ -->
+        <footer>
+            <div class="footer-container">
+                <div class="left-footer">
+                    <div class="logo-footer">
+                        <img src="img/tooth.png" alt="tooth" title="tooth">
+                        <span>DR. Nikola Tesla<br>
+                        dentist</span>
+                    </div>
+                    <div class="worktime-workinghours">
+                        <div class="worktime">
+                            <ui>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Service</a></li>
+                                <li>
+                                    <div>
+                                        <a href="#">UA</a>
+                                        <span>|</span>
+                                        <a href="#">EU</a>
+                                    </div>
+                                </li>
+                            </ui>
+                        </div>
+                        <div class="workinghours">
+                            <span>Working hours:</span>
+                            <span>Mon-Fri:</span>
+                            <span>9:00-19:00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-footer">
+                    <div class="contacts-header">
+                        <span>Contacts</span>
+                    </div>
+                    <div class="contacts-inf">
+                        <span>Nikola Tesla</span>
+                        <span>339 5th Ave, New Yourk</span>
+                        <div class="footer-tell">
+                            <img src="./img/phone.png" alt="phone" title="phone">
+                            <a href="tel:+09999999999">+38 (099) 999-99-99</a>
+                        </div>
+                        <div class="messengers">
+                            <div class="messengers-logo">
+                                <a href=""><img src="./img/viber.png" alt=""></a>
+                                <a href=""><img src="./img/telegram.png" alt=""></a>
+                                <a href=""><img src="./img/whatsapp.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="inst">
+                            <a href="dr.NikTes"><img src="./img/instagram.png" alt="instagram" title="instagram"></a>
+                            <a href="">dr.NikTes</a>
+                        </div>
+                        <div class="email">
+                            <a href="mailto:dr.niktes@gmail.com"><img src="./img/email.png" alt="Email" title="email"></a>
+                            <a href="">dr.niktes@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <span class="copyright">@ Copyright 2022</span>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>

@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@font-face {
+    font-family: "Muller";
+    font-display: swap;
+    font-weight: 400;
+    font-style:normal ;
+    src: url(../fonts/font_muller/MullerRegular.woff),
+        url(../fonts/font_muller/MullerRegular.woff2);
+}
+@font-face {
+    font-family: "Muller";
+    font-display: swap;
+    font-weight: 700;
+    font-style:normal;
+    src: url(../fonts/font_muller/MullerBold.woff),
+         url(../fonts/font_muller/MullerBold.woff2);
+}
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Muller";
+}
+body {
+    overflow-x:hidden;
+}
+footer {
+    min-height: calc(100vh - auto);
+    background: linear-gradient(90deg, rgba(161,199,212,1) 0%, rgba(14,132,172,1) 99%);
+    margin-top: 50px;
+}
+.first-screen {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    /* display: flex;
+    flex-direction: column; */
+}
+header {
+    margin-top: 20px;
+}
+.tell, a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav  {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 50px;
+    padding-left: 0px;
+    list-style: none;
+}
+.phone-svg {
+    margin-right: 10px;
+}
+.logo {
+    display: flex;
+    color: #46b1de ;
+}
+p.logo-text {
+    font-size: 25px;
+}
+p {
+    font-size: 18px;
+    white-space: pre-line;
+    font-weight: 700;
+    
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 1150px;
+    margin: 0px auto ;
+    padding: 0px 10px;
+}
+.container-tell {
+    display: flex;
+    justify-content:center;
+    align-items: end;
+}
+.main-text1 > span {
+    color: #46b1de;
+    font-family: 'Russo One', sans-serif;
+}
+.main-text1 {
+    font-family: 'Russo One', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    font-size: 40px;
+    white-space: pre-line;
+    line-height: 50px;
+}
+.text-container {
+    width: 1150px;
+    margin: 110px auto 0px ;
+    padding: 0px 10px;
+}
+.link-buttons {
+    width: 1150px;
+    margin: 50px auto 0px;
+    padding-left: 10px ;
+}
+.call-button, .service-button {
+    background-color: #46b1de ;
+    text-align: center;
+    padding: 10px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+.call-button {
+    background-color: #46b1de ;
+    color: #ffffff;
+}
+.service-button {
+    background-color: #ffffff ;
+    color: #46b1de;
+    margin-left: 100px;
+}
+.benefits-container {
+    width: 1150px;
+    margin: 290px auto 100px;
+    display: grid;
+    grid-template-columns: repeat(3,auto) ;
+    justify-content: center;
+    gap: 50px;
+    font-family: "Muller";
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+.benefits {
+    width: 300px;
+    display: flex;
+    padding: 15px;
+    background-color: #ffffff;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: gray 0px 0px 5px;
+    align-items: center;
+    z-index: 2;
+}
+.benefits p + p {
+    font-weight: 400;
+}
+.benefits > .value {
+    font-size: 60px;
+    color:#46b1de ;
+    padding-right: 15px;
+    font-family: "Muller";
+    font-weight: 700;
+}
+div.lady{
+    margin: -775px 0px 0px;
+    overflow: hidden;
+}
+.lady picture > img {
+    position: absolute;
+    left: calc(50% + 170px);
+    z-index: 1;
+}
+.text-container-second {
+    /* white-space: pre-line; */
+    text-align: center;
+    margin-top: 850px;
+}
+.main-text2 {
+    font-weight: 700;
+    font-family: 'Russo One', sans-serif;
+}
+.text-container-second span{
+    color: #46b1de;
+    font-family: "Muller";
+}
+.text-container-second p {
+    font-weight: 400;
+    line-height: 25px;
+}
+.benefits2-container {
+    background-color: #a1c7d4;
+    width: 1150px;
+    margin: 50px auto 0px ;
+    display: grid;
+    grid-template-columns: repeat(3,auto) ;
+    grid-template-rows: auto auto;
+    border-radius: 10px;
+    gap: 10px 20px;
+    grid-auto-flow: column;
+    padding: 15px;
+}
+.benefits2 {
+    background-color:#ffffff;
+    padding: 20px 20px 50px;
+    border-radius: 10px;
+}
+.benefits2 > div {
+    display: grid;
+    grid-template-columns: repeat(3,auto) ;
+    justify-content:start;
+    margin-bottom: 20px;
+    color: #46b1de;
+    font-size: 20px;
+    font-family: "Muller";
+}
+.benefits2 div > p {
+    font-size: 40px;
+    align-items:center;
+    margin-right: 10px;
+}
+.benefits2 div > p + p {
+    font-size: 20px;
+}
+.benefits2 div + p {
+    font-weight: 400;
+}
+.footer-container {
+    width: 1150px;
+    margin: 50px auto 0px;
+    padding: 50px 10px 0px;
+    /* border: 1px solid rgb(237, 10, 10); */
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.left-footer {
+    display: flex;
+    flex-direction: column;
+}
+.logo-footer {
+    display: flex;
+    font-size: 30px;
+    color: #0e2b49;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.worktime-workinghours{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+.worktime {
+    margin-top: 20px;
+    /* border: 1px solid rgb(28, 174, 31); */
+    list-style: none;
+    line-height: 200%;
+    font-size: 18px;
+    display: flex;
+}
+.workinghours{
+    display: grid;
+    align-content: center;
+    line-height: 100%;
+    /* border: 1px solid rgb(28, 174, 31); */
+    margin-top: 20px;
+}
+.worktime :nth-child(3) {
+    font-weight: 700;
+}
+.workinghours :first-child {
+    font-weight: 700;
+    line-height: 200%;
+}
+.right-footer {
+    display: flex;
+    flex-direction: column;
+}
+div.right-footer a {
+    color: #ffffff;
+    font-size: 16px;
+}
+.contacts-header {
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700px;
+    /* border: 1px solid black; */
+}
+.contacts-inf {
+    /* border: 1px solid black; */
+    display: grid;
+    font-size: 16px;
+    color: #ffffff;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 0px 0px;
+}
+.footer-tell,
+.inst,
+.email {
+    display: flex;
+    align-items: center;
+}
+.footer-tell,
+.inst,
+.email,
+ img {
+    margin-right: 20px;
+}
+.messengers-logo {
+    line-height: 0;
+    display: grid;
+    grid-template-columns: repeat(3,50px); 
+}
+.copyright {
+    width: 1150px;
+    margin: 0px auto;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    display:flex;
+    justify-content:flex-end;
+}
+div.right-footer a {
+    color: #ffffff;
+    font-size: 16px;
+}
